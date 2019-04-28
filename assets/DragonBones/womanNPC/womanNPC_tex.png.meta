@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "9b91e2df-89bb-47f9-a1b4-bbc4a48312dd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "womanNPC_tex": {
+      "ver": "1.0.3",
+      "uuid": "2a086f96-c281-4c25-90ac-9c852b15caa6",
+      "rawTextureUuid": "9b91e2df-89bb-47f9-a1b4-bbc4a48312dd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 512,
+      "height": 256,
+      "rawWidth": 512,
+      "rawHeight": 256,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "c9de97cb-8cbf-45c1-b51e-40046b3f96a5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "character_blonde_blue": {
+      "ver": "1.0.3",
+      "uuid": "af213c77-b92a-46a0-bfdc-ae607e2c6797",
+      "rawTextureUuid": "c9de97cb-8cbf-45c1-b51e-40046b3f96a5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 52,
+      "height": 36,
+      "rawWidth": 52,
+      "rawHeight": 36,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

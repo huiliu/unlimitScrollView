@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "5b867ec9-c507-4f30-891f-8e2be5b58da4",
+  "atlasJson": "{\"width\":256,\"imagePath\":\"bubing_tex.png\",\"height\":256,\"name\":\"bubing\",\"SubTexture\":[{\"width\":32,\"y\":105,\"height\":20,\"name\":\"images/yinying\",\"x\":1},{\"width\":58,\"y\":151,\"height\":54,\"name\":\"images/stand/02\",\"x\":66},{\"width\":58,\"y\":107,\"height\":54,\"name\":\"images/stand/01\",\"x\":136},{\"width\":72,\"y\":1,\"height\":48,\"name\":\"images/attack/04\",\"x\":174},{\"width\":65,\"y\":47,\"height\":53,\"name\":\"images/attack/03\",\"x\":89},{\"width\":63,\"y\":151,\"height\":50,\"name\":\"images/attack/08\",\"x\":1},{\"width\":62,\"y\":48,\"height\":55,\"name\":\"images/attack/02\",\"x\":1},{\"width\":69,\"y\":102,\"height\":47,\"name\":\"images/attack/07\",\"x\":65},{\"width\":63,\"y\":51,\"height\":54,\"name\":\"images/attack/01\",\"x\":156},{\"width\":83,\"y\":1,\"height\":44,\"name\":\"images/attack/06\",\"x\":89},{\"width\":86,\"y\":1,\"height\":45,\"name\":\"images/attack/05\",\"x\":1}]}",
+  "texture": "eeeb4d09-0dad-4285-9f50-8577df033b4c",
+  "subMetas": {}
+}

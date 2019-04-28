@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "390d7763-3913-4648-b8e8-de5ae1322f25",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "land_grass02": {
+      "ver": "1.0.3",
+      "uuid": "1ea244ce-4303-4001-a6a3-5ff7246f82d0",
+      "rawTextureUuid": "390d7763-3913-4648-b8e8-de5ae1322f25",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 128,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

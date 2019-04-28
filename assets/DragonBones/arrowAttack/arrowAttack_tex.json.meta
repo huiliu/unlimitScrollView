@@ -1,0 +1,7 @@
+{
+  "ver": "1.0.0",
+  "uuid": "72c677c1-b5cb-40b7-aec5-1e92263ae5fb",
+  "atlasJson": "{\"width\":32,\"imagePath\":\"arrowAttack_tex.png\",\"height\":32,\"name\":\"arrowAttack\",\"SubTexture\":[{\"width\":18,\"y\":1,\"height\":18,\"name\":\"jian\",\"x\":1},{\"width\":4,\"y\":1,\"height\":28,\"name\":\"jian2\",\"x\":21}]}",
+  "texture": "3c085100-dc29-4dcc-9ab3-e9dad1118786",
+  "subMetas": {}
+}

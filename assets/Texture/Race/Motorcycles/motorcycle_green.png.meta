@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "20a93ad6-2379-486c-94da-9fe428137f1e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "motorcycle_green": {
+      "ver": "1.0.3",
+      "uuid": "ae09baaf-ea5f-482a-a7fa-81db6a201c1e",
+      "rawTextureUuid": "20a93ad6-2379-486c-94da-9fe428137f1e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 44,
+      "height": 100,
+      "rawWidth": 44,
+      "rawHeight": 100,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

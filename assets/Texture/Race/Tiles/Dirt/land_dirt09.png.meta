@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "99bda9be-6de3-4215-9c1f-8c6cde24ffb8",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "land_dirt09": {
+      "ver": "1.0.3",
+      "uuid": "5087d9fa-4e7a-4eee-9fad-65f281401ad5",
+      "rawTextureUuid": "99bda9be-6de3-4215-9c1f-8c6cde24ffb8",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 128,
+      "height": 128,
+      "rawWidth": 128,
+      "rawHeight": 128,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
