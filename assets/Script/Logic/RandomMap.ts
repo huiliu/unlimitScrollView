@@ -29,7 +29,7 @@ class Point {
     static readonly Right: Point = new Point(1, 0);
 
     static clone(p: Point): Point {
-        let t = Point.Zero;
+        let t = new Point(0, 0);
         t.x = p.x;
         t.y = p.y;
         return t;
@@ -79,8 +79,7 @@ export default class RandomMap {
         let currentPoint = Point.Zero;
         currentPoint.copy(this.start);
         for (let i = 0; i < 10; ++i) {
-            currentPoint.y -= i;
-            this.map[currentPoint.y][currentPoint.x] = MapElementType.V;
+            this.map[currentPoint.y--][currentPoint.x] = MapElementType.V;
         }
 
         console.log("-----------------------------")
@@ -88,6 +87,7 @@ export default class RandomMap {
         console.log("-----------------------------")
 
         let lastPoint = Point.clone(currentPoint);
+        lastPoint.y++;
         let dir = Direction.U;
         while (true) {
             let result = this.randomPartMap(lastPoint, dir, this.map);
@@ -103,10 +103,12 @@ export default class RandomMap {
     private randomPartMap(point: Point, dir: Direction, m: any[]): { p: Point, direction: Direction } {
         let preEl = m[point.y][point.x];
         let result = this.randomDirection(preEl, dir);
-        if (result.el == null) {
+        if (!result) {
             console.assert(false);
             return;
         }
+
+        // console.assert(result.el != undefined && result.dir != undefined);
 
         let newPoint = Point.clone(point);
         if (dir == Direction.L) {
@@ -126,7 +128,7 @@ export default class RandomMap {
         m[newPoint.y][newPoint.x] = result.el;
 
         let vh = MapElementType.V;
-        if (result.dir == Direction.L || result.dir == Direction.R) {
+        if (result.direction == Direction.L || result.direction == Direction.R) {
             vh = MapElementType.H;
         }
 
@@ -140,20 +142,20 @@ export default class RandomMap {
         let tempPoint = Point.clone(newPoint);
         for (let i = 1; i <= count; ++i) {
             if (vh == MapElementType.V) {
-                tempPoint.y = tempPoint.y - 1 * (result.dir == Direction.U ? 1 : -1);
+                tempPoint.y = tempPoint.y - 1 * (result.direction == Direction.U ? 1 : -1);
             } else if (vh = MapElementType.H) {
-                tempPoint.x = tempPoint.x - 1 * (result.dir == Direction.L ? 1 : -1);
+                tempPoint.x = tempPoint.x - 1 * (result.direction == Direction.L ? 1 : -1);
             }
 
             if (!this.inMap(tempPoint)) {
                 break;
             }
 
-            point.copy(tempPoint);
-            m[point.y][point.x] = vh;
+            newPoint.copy(tempPoint);
+            m[newPoint.y][newPoint.x] = vh;
         }
 
-        return { p: point, direction: result.dir };
+        return { p: newPoint, direction: result.direction };
     }
 
     private randomDirection(preDir: MapElementType, dir: Direction): any {
@@ -198,7 +200,7 @@ export default class RandomMap {
     }
 
     private randVHCount(max: number): number {
-        return this.rng.int32() % max;
+        return this.rng.int32() % max + 1;
     }
 
     private inMap(point: Point): boolean {
