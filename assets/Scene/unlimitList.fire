@@ -41,8 +41,8 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 0.7229166666666667,
-      "y": 0.7229166666666667,
+      "x": 0.37162031026005743,
+      "y": 0.37162031026005743,
       "z": 1
     },
     "_quat": {
@@ -92,8 +92,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 960,
-      "height": 640
+      "width": 720,
+      "height": 1280
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -102,8 +102,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 480,
-      "y": 320,
+      "x": 360,
+      "y": 640,
       "z": 0
     },
     "_scale": {
@@ -254,8 +254,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": 256,
-      "y": 150,
+      "x": -22,
+      "y": 398,
       "z": 0
     },
     "_scale": {
@@ -451,8 +451,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -200,
-      "y": 0,
+      "x": -207,
+      "y": -291,
       "z": 0
     },
     "_scale": {
@@ -497,18 +497,18 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 5,
-      "height": 200
+      "width": 200,
+      "height": 5
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0.5
+      "x": 0.5,
+      "y": 0
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -150,
-      "y": 0,
+      "x": 0,
+      "y": -153,
       "z": 0
     },
     "_scale": {
@@ -586,7 +586,7 @@
     "_id": "46f81BDK5Ax7W8nbSbHPB8"
   },
   {
-    "__type__": "54befv4P5ZB6LxIZ5If7C+P",
+    "__type__": "edb64/mNUxBqYCYAQ2kDPUT",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -595,12 +595,12 @@
     "_enabled": true,
     "totoalCount": 20,
     "itemPadding": 5,
-    "itemWidth": 145,
+    "itemHeight": 145,
     "itemPrefab": {
-      "__uuid__": "30eef0ff-1f45-412c-869f-93e1811a077c"
+      "__uuid__": "1dc00017-c37a-46dc-9c14-094d3046c555"
     },
     "bufferWidth": 200,
-    "_id": "13Oov3hdZKeb4nFoUQNwIl"
+    "_id": "0fcwxQualKlKXwyv0HK59M"
   },
   {
     "__type__": "cc.Canvas",
@@ -612,8 +612,8 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 960,
-      "height": 640
+      "width": 720,
+      "height": 1280
     },
     "_fitWidth": false,
     "_fitHeight": true,
